@@ -94,8 +94,6 @@ header .logo {
 
 .hero-box {
     position: relative;
-    height: 500px;
-    color: #fff;
 }
 
 .hero-text {
@@ -103,6 +101,7 @@ header .logo {
     width: 50%;
     bottom: 50px;
     left: 40px;
+    color: #fff;
 }
 
 .hero-text h3 {
