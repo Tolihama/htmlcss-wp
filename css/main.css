@@ -1,0 +1,72 @@
+/* GENERAL STYLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* UTILITIES */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.pd-lr-16 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.pd-tb-16 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.bg-type-1 {
+    background: #e579e6;
+}
+
+.bg-type-2 {
+    background: #e1d67a;
+}
+
+.bg-type-3 {
+    background: #0087ff;
+}
+
+.bg-type-4 {
+    background: #8801fe;
+}
+
+/* debug */
+.debug-box-1,
+.debug-box-2 {
+    height: 100px;
+}
+
+.debug-box-1 {
+    background: rgba(255,255,255,0.4);
+}
+
+/* MAIN CONTENT */
+div.col aside {
+    width: 20%;
+}
+
+div.col section {
+    width: 60%;
+}
+
+.sidebar,
+.main-content {
+    float: left;
+}
