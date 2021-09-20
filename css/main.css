@@ -22,6 +22,10 @@ body {
     clear: both;
 }
 
+.mb-40 {
+    margin-bottom: 40px;
+}
+
 .mb-30 {
     margin-bottom: 30px;
 }
@@ -39,7 +43,6 @@ body {
     padding-left: 10px;
     padding-right: 10px;
 }
-
 
 .bdrd-15 {
     border-radius: 15px;
