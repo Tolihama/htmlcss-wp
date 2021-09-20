@@ -26,8 +26,8 @@ body {
     margin-bottom: 30px;
 }
 
-.mb-10 {
-    margin-bottom: 10px;
+.mb-20 {
+    margin-bottom: 20px;
 }
 
 .px-20 {
@@ -41,7 +41,6 @@ body {
 }
 
 
-
 .bdrd-15 {
     border-radius: 15px;
 }
@@ -51,29 +50,10 @@ body {
     height: 100%;
 }
 
-
-.bg-type-3 {
-    background: #0087ff;
-}
-
-.bg-type-4 {
-    background: #8801fe;
-}
-
 .bg-img-set-1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-/* debug */
-.debug-box-1,
-.debug-box-2 {
-    height: 100px;
-}
-
-.debug-box-1 {
-    background: rgba(255,255,255,0.4);
 }
 
 /* HEADER */
@@ -166,5 +146,16 @@ header .logo {
 .col h4 {
     color: #000;
     font-weight: 400;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
+}
+
+/* FOOTER */
+footer {
+    color: #000;
+    text-align: center;
+}
+
+footer .heart {
+    color: #f00;
+    font-size: 30px;
 }
