@@ -6,6 +6,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    color: #939393;
+}
+
 /* UTILITIES */
 .container {
     max-width: 1200px;
@@ -22,32 +26,31 @@
     margin-bottom: 30px;
 }
 
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.px-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .px-10 {
     padding-left: 10px;
     padding-right: 10px;
 }
 
-.pd-lr-16 {
-    padding-left: 16px;
-    padding-right: 16px;
-}
 
-.pd-tb-16 {
-    padding-top: 16px;
-    padding-bottom: 16px;
-}
 
-.bdr-15 {
+.bdrd-15 {
     border-radius: 15px;
 }
 
 .bg-type-1 {
     background-color: rgba(0,0,0,0.2);
+    height: 100%;
 }
 
-.bg-type-2 {
-    background: #e1d67a;
-}
 
 .bg-type-3 {
     background: #0087ff;
@@ -55,6 +58,12 @@
 
 .bg-type-4 {
     background: #8801fe;
+}
+
+.bg-img-set-1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* debug */
@@ -69,7 +78,7 @@
 
 /* HEADER */
 header .logo {
-    height: 100px;
+    height: 70px;
     margin-top: 20px;
 }
 
@@ -94,12 +103,10 @@ header .logo {
 }
 
 /* MAIN CONTENT */
-/* Hero section*/
+/* Hero section */
 .hero {
     background-image: url('../img/banner.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 500px;
 }
 
 .hero-box {
@@ -117,22 +124,47 @@ header .logo {
 
 .hero-text h3 {
     font-size: 32px;
+    font-weight: 400;
 }
 
+/* Columns section */
+.columns .title h2 {
+    color: #000;
+    font-size: 38px;
+    font-weight: 700;
+}
 
+.col section,
+.col aside {
+    float: left;
+}
 
-
-
-
-div.col aside {
+.col aside {
     width: 20%;
 }
 
-div.col section {
+.col section {
     width: 60%;
 }
 
-.sidebar,
-.main-content {
-    float: left;
+.col .col-box {
+    height: 200px;
+}
+
+.bg-img-1 {
+    background-image: url('../img/img-1.jpg');
+}
+
+.bg-img-2 {
+    background-image: url('../img/banner-2.jpg');
+}
+
+.bg-img-3 {
+    background-image: url('../img/img-3.jpg');
+}
+
+.col h4 {
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 5px;
 }
